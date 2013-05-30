@@ -416,15 +416,15 @@ ul {
   width: 100%;
   z-index: 999999999999; }
 
-@media screen and (min-width: 940px), screen and (min-device-width: 940px) {
+@media screen and (min-width: 1020px), screen and (min-device-width: 1020px) {
   html {
-    min-width: 940px; }
+    min-width: 1020px; }
 
   .ad.leaderboard, .ad.medrec {
     display: block; }
 
   .container {
-    width: 940px; }
+    width: 1020px; }
 
   .module {
     float: left;
@@ -453,7 +453,7 @@ ul {
     border-width: 12px 0 0 12px; }
 
   .stuck {
-    width: 964px; }
+    width: 1044px; }
 
   #BottomAds,
   #TopAds {
@@ -469,26 +469,6 @@ ul {
 
   #Main {
     float: left;
-    width: 620px; }
-
-  #Overlay {
-    margin-left: -470px;
-    width: 940px; }
-
-  #Sidebar {
-    float: left;
-    margin-top: 0;
-    margin-left: 20px;
-    width: 300px; } }
-
-@media screen and (min-width: 1120px) {
-  .container {
-    width: 1020px; }
-
-  .stuck {
-    width: 1044px; }
-
-  #Main {
     width: 700px; }
 
   #Overlay {
@@ -496,6 +476,9 @@ ul {
     width: 1020px; }
 
   #Sidebar {
+    float: left;
+    margin-top: 0;
+    margin-left: 20px;
     width: 300px; } }
 
 @media screen and (min-width: 1300px) {
